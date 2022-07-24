@@ -1,0 +1,283 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+ 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; 
+    color: black;
+    line-height: 1.9;
+    text-align: left;
+}
+ 
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+ 
+
+ul {
+    list-style:none;
+
+}
+ 
+
+blockquote, q {
+    quotes:none;
+
+}
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+
+}
+ 
+a {
+    margin: 0px;
+    padding: 0px;
+    font-size:100%;
+    text-decoration: none;
+    color: black;
+
+    vertical-align:baseline;
+    background:transparent;
+
+}
+ 
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+ 
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+ 
+del {
+    text-decoration: line-through;
+}
+ 
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+ 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+ 
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+.main1{
+   width:75%;
+   margin:0 auto;
+
+}
+
+
+header{
+    padding-top:  95px;
+
+}
+
+.header-top{
+     display: flex;
+
+}
+
+
+
+.header-left h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+
+
+}
+
+
+.header-right{
+    margin-left: auto;
+    padding: 28px 7px 0;
+
+}
+
+.header-right .fa-brands {
+    padding: 0 15px;
+    opacity: 0.5;
+}
+.header-right .fa-regular{
+    padding: 0 0px;
+    opacity: 0.5;
+}
+
+.header-right .fa-brands:hover{
+    opacity: 1;
+}
+.header-right .fa-regular:hover{
+    opacity: 1;
+}
+
+
+
+.navi-list{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+
+.navi-list li{
+     font-size: 25px;
+     padding :0 20px;
+     letter-spacing: 3px;
+}
+
+.navi-list li :hover{
+     text-decoration: underline;
+}
+
+.main画像{
+    width: 100%;
+    padding-top: 40px;
+}
+.my-photo img{
+    width: 300px;
+    padding-left: 350px;
+}
+.my-text a{
+    opacity: 0.5;
+}
+.my-text a:hover{
+    opacity: 1.0;
+    text-decoration: underline;
+}
+
+.main-logo{
+    font-size: 45px;
+    text-align:center;
+    letter-spacing: 6px;
+    font-weight: 100;
+    padding: 80px 0 80px 0;
+}
+
+.contents{
+    display: flex;
+    background-color: beige;
+}
+.my-text{
+    font-size: 18px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.my-text .fa-brands{
+    padding-right: 15px;
+}
+.my-text .fa-regular{
+    padding-right: 15px;
+}
+
+.自己紹介{
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.skill-content{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;  
+    background-color: beige;
+    
+   
+    
+}
+.skill-text{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.skill-content h1{
+    font-size: 23px;
+}
+.skill-content i{
+    padding: 35px 0 50px;
+}
+
+.contact-wrapper p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.contact-menu{
+    text-align: center;
+    padding: 50px ;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.contact-menu .fa-brands{
+    padding: 0 17px;
+    opacity: 0.7;
+}
+.contact-menu .fa-brands:hover{
+    opacity: 1;
+}
+
+
+
+.contact-menu .fa-regular{
+    padding: 17px 0;
+    opacity: 0.7;
+}
+.contact-menu .fa-regular:hover{
+    opacity: 1;
+}
