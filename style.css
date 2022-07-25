@@ -114,7 +114,9 @@ input, select {
     vertical-align:middle;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 .main1{
