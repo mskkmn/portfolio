@@ -149,7 +149,6 @@ header{
 .header-right{
     margin-left: auto;
     padding: 28px 7px 0;
-
 }
 
 .header-right .fa-brands {
@@ -190,9 +189,13 @@ header{
     width: 100%;
     padding-top: 40px;
 }
+
+.my-photo{
+    margin: auto;
+}
+
 .my-photo img{
     width: 300px;
-    padding-left: 350px;
 }
 .my-text a{
     opacity: 0.5;
